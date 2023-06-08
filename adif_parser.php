@@ -88,6 +88,7 @@ class ADIF_Parser
 					$len--;
 					$a++;
 				};
+				$a--;
 				$return[strtolower($tag_name)] = $value;
 			};
 		};
